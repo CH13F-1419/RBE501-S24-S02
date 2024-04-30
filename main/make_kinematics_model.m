@@ -25,6 +25,6 @@ S = [0 0 1 0 0 0;
 % Home configuration
 M = double(robot.fkine(zeros(1,6)));
 R = M(1:3,1:3);
-eulXYZ = rotm2eul(R,'XYZ')
+% eulXYZ = rotm2eul(R,'XYZ')
 
 end
